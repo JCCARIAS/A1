@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/app": "7.0.1",
+    "@capacitor/core": "^7.2.0",
+    "@capacitor/haptics": "7.0.1",
+    "@capacitor/keyboard": "7.0.1",
+    "@capacitor/status-bar": "7.0.1",
+    "@ionic/react": "^8.5.7",
+    "@ionic/react-router": "^8.5.7",
+    "@types/react-router-dom": "^5.3.3",
+    "ionicons": "^8.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.27.1",
+    "@capacitor/cli": "^7.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
+    "typescript": "^5.1.6",
+    "vite": "^6.3.5",
+    "vite-plugin-node-polyfills": "^0.23.0"
+  },
+  "scripts": {
+    "start": "vite dev",
+    "build": "vite build",
+    "serve": "vite preview",
+    "cap:android": "npx cap add android && npx cap sync android",
+    "cap:run": "npx cap run android",
+    "type": "module"
+  }
+}
